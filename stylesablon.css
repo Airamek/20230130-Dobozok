@@ -53,6 +53,7 @@ body {
 
 .box-container {
 	display: flex;
+	justify-content: center;
 	flex-wrap: wrap;
 }
 
@@ -95,4 +96,17 @@ body {
 
 #element-nine {
 	background-color: purple;
+}
+
+#element-ten {
+	background-color: darkkhaki;
+}
+
+#element-eleven
+{
+	background-color: firebrick;
+}
+
+#element-twelve {
+	background-image: url("warning.png");
 }

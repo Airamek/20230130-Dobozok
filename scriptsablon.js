@@ -94,3 +94,23 @@ document.getElementById("box-9").onsubmit = function(event) {
 	let state = parseInt(szam.innerHTML);
 	document.getElementById("element-nine").firstElementChild.innerHTML = eval(`state ${operator} ${operand}`);
 }
+
+//10.doboz
+document.getElementById("element-ten").onclick = function () {
+	alert("Igyál vizet!")
+}
+
+//11.doboz
+let vissza = false;
+document.getElementById("element-eleven").onclick = function () {
+	vissza = !vissza;
+	if (vissza)
+		document.getElementById("element-eleven").parentElement.style.flexDirection = "row-reverse";
+	else
+		document.getElementById("element-eleven").parentElement.style.flexDirection = "row";
+}
+
+//12.doboz
+document.getElementById("element-twelve").onclick = function () {
+	document.body.innerHTML="kappa";
+}
